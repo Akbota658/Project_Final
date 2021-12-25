@@ -1,0 +1,34 @@
+# Final Project rules 
+
+Final project is a team project. In one team can be 1-4 students. You can do final project with other practice class students, 	 however you must have the same lecturer. Final project weights 40%. Requirements of final project are:
+
+ 1)Number of web pages must be at least 10. ✅ (❎ 1 MORE PAGE) 
+
+ 2)Web pages must have at least one tag "<"i">, <"hr">, <"textarea">, <"ul">, <"ol">"(not in all web pages). ✅
+
+ 3)Push your final project in github repository. This task for each team member. ✅
+
+ 4)Color must be defined by hsl,hsla,rgb, rgba, functions and by hexadecimal number. ✅
+
+ 5)Final project must contain at least four flexbox containers and items must be aligned. ✅ 
+
+ 6)HTML elements must be aligned by grid system.  ✅
+
+ 7)Five buttons and two tables must be styled by bootstrap library. Some elements must be styled by tailwind library. DONE ✅
+
+ 8)Final project must be mobile adaptable for at least two kinds of screen.  RPOCESS ❎
+
+9) Final project must have inputs with types date, number, text, radio, checkbox. ❎ !сории мен data косуды умытып кетыпын
+
+10)Some HTML elements must be styled by Vue.js framework. DONE ✅
+
+
+## Бызде уже тен жартысы дайын тек  mobile adaptable and 1 page null то есть 1 страница мен   adaptable жок так мен 
+## max-width: 991px and max-width: 778px точно емес размер но style.scss корсендер болады path("...\Atelier New York\scss\style.scss") ышынде бар index.html mobile adaptable ipod and iphone  6/7/8
+![alt text](images/screen1.png);  ![alt text](images/screen2.png);
+
+
+
+
+
+

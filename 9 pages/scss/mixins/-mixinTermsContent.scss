@@ -1,0 +1,90 @@
+@import "-mixinHeadTextContent.scss";
+
+@mixin termsElem
+{
+	.content 
+	{
+		width: 980px;
+		margin: 0 auto;
+		margin-top: 14.5rem;
+		font-size: 1.25rem;
+		color: $color_text333;
+	
+		/* .HomeandTerms
+		{
+			font-weight: 100; 
+			letter-spacing: 1px;
+			font-size: 11px;
+			margin-bottom: 20px 10px;
+
+			a
+			{
+				color: $color_text777;
+				margin-bottom: 20px; 
+				text-transform: uppercase;
+
+			}
+			span 
+			{
+				color: $color_text777;
+				margin-bottom: 20px; 
+				text-transform: uppercase;
+			}
+		} */
+
+		@include headText;
+
+		.headText
+		{
+			margin-top: 20px; 
+			h1
+			{
+				font-weight: 400; 
+				color: lighten($color_black, 10%);
+				margin-bottom: 5px;
+			}
+
+			.line
+			{
+				width: 980px;
+				margin: 0 auto;
+				height: 0.5px;
+				background-color: lighten($color_text777, 30%);
+				margin-bottom: 20px;
+			}
+		}
+
+		.contentText
+		{
+			color: $color_text777;
+			line-height: 20px;
+			
+			p
+			{
+				font-size: 1.25rem;
+				text-transform: none;
+				margin-bottom: 2px;
+			}
+
+			.paragrath1 
+			{
+				margin-top: 40px;
+				span
+				{
+					text-transform: uppercase;
+					font-size: 1.35rem;
+					font-weight: 600; 
+				}
+			}
+
+			.paragraths
+			{
+				margin-bottom: 135px;
+			}
+
+			
+		}
+	}
+
+
+}
